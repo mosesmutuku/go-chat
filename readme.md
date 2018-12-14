@@ -8,9 +8,9 @@ To try it out switch to the file directory then run `go run main.go`
 Respond with the list of users taking part in the chat e.g. `user1 user2 user3`. 
 
 There's really no limit on the users at the moment.
-Open any of the txt files created e.g. user1.txt and type your message then save the file. The message should appear on the other files for the users created.
+Open any of the txt files created e.g. user1.txt and type your message then save the file. The message should appear on the other files for the users created. This works best on an editor with autoreload when a file is changed.
 
-Due to constraints in reloading files in an editor, only one user can send a message at a time. Obviously this would work better on a normal UI, but since we are working within the constraints of a file  it's not too horrible.
+Due to constraints in reloading files in an editor, only one user can send a message at a time (i.e. type and save). Obviously this would work better on a normal UI, but since we are working within the constraints of a file, it's not too horrible.
 
 ## TBD
 - possibly track file changes so as to keep the chat consistent
